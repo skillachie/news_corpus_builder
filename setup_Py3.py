@@ -18,7 +18,8 @@ setup(
     keywords='corpus, nlp news,extractor,web scrapping, natural language processing'.split(','),
     license='MIT License',
     install_requires=[
-        "goose-extractor >= 1.0.25",
+    
+         "readability-lxml >= 0.6.2",
         "feedparser >= 5.2.1"
                      ],
     classifiers=[
